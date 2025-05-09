@@ -1,12 +1,12 @@
 import React from 'react';
 
-const CreateTicket: React.FC = () => {
+const SupportHero: React.FC = () => {
   return (
     <div className="container">
-      <h1>CreateTicket</h1>
+      <h1>Support Hero</h1>
       <p>Welcome to the support section. How can we assist you today?</p>
     </div>
   );
 };
 
-export default CreateTicket;
+export default SupportHero;
