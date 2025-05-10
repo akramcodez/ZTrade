@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Stats = () => {
   return (
@@ -44,11 +46,17 @@ const Stats = () => {
             className="w-full max-w-[70vw] lg:max-w-full object-contain"
           />
           <p className="mt-2 mb-2 text-center flex justify-evenly">
-            <a href="#" className="text-[#138085]">
-              Explore our products →
+            <a
+              href="#"
+              className="text-[#138085] text-[0.8rem] lg:text-[1rem] hover:text-black"
+            >
+              Explore our products <FontAwesomeIcon icon={faArrowRight} />
             </a>
-            <a href="#" className="text-[#138085]">
-              Try Kite demo →
+            <a
+              href="#"
+              className="text-[#138085] text-[0.8rem] lg:text-[1rem] hover:text-black"
+            >
+              Try Kite demo <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </p>
         </div>

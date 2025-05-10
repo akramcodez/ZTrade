@@ -8,8 +8,6 @@ import Navbar from '../Navbar';
 import OpenAcc from '../OpenAcc';
 import Footer from '../Footer';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 const Home: React.FC = () => {
   return (
     <>
