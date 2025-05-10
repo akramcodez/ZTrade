@@ -1,5 +1,11 @@
+import Home from './landingPage/home/Home';
+
 function App() {
-  return <div>Hello!</div>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
