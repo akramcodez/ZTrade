@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav>
+    <nav className="bg-amber-200">
       <div className="logo">
         <h1>Logo</h1>
       </div>
