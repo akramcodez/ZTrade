@@ -2,22 +2,23 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-amber-200">
-      <div className="logo">
-        <h1>Logo</h1>
-      </div>
-      <ul className="nav-links">
+    <nav className="bg-gray-800 p-4 lg:px-[120px] flex items-center justify-between">
+      <div className="text-white font-bold text-xl">MyBrand</div>
+      <ul className="flex space-x-4 text-gray-300">
         <li>
-          <a href="#home">Home</a>
+          <a href="#" className="hover:text-white">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#" className="hover:text-white">
+            About
+          </a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="#" className="hover:text-white">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
